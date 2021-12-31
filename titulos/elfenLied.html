@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../estilo/main.css">
+    <title>ANIFLIX</title>
+
+    <!--RESPONSIVIDADE-->
+    <link rel="stylesheet" href="../estilo/responsive.css">
+
+    <!--OWL CSS arquivos-->
+    <link rel="stylesheet" href="../estilo/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="../estilo/owl/owl.theme.default.min.css">
+
+    <style>
+        .filme-principal{
+            background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0.5)100%), url('../img/capa-elfen.png');
+            height: 400px;
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h2 class="logo">ANIFLIX</h2>
+            <nav>
+                <a href="../index.html">
+                    <i class="fas fa-house-user"></i>
+                    Início</a>
+                <a href="#">
+                    <i class="fas fa-sign-out-alt"></i>
+                    Sair</a>
+            </nav>
+        </div>
+    </header>
+    
+    <main>
+        <div class="filme-principal">
+            <div class="container">
+                <h3 class="titulo">ELFEN LIED</h3>
+                <p class="descricao">Elfen Lied é uma popular série de mangá criada por Lynn Okamoto e sua adaptação em anime dirigida por Mamoru Kanbe. Ambos os formatos são sobre a espécie diclonius, uma mutação do ser humano com chifres, e sua relação violenta com o resto da humanidade.</p>
+                <div class="botoes">
+                    <button role="button" class="botao">
+                        <i class="fas fa-play"></i>
+                        ASSISTIR AGORA
+                    </button>
+                    <button role="button" class="botao">
+                        <i class="fas fa-info-circle"></i>
+                        MAIS INFORMAÇÕES
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div class="carrossel-filmes">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <a href="shingekiNoKyojin.html">
+                <img class="box-filme" src="../img/shingeki.jpg" alt="capa Shingeki no Kyojin" srcset="">
+                </a>
+            </div>
+            <div class="item">
+                <a href="akameGaKill.html">
+                <img class="box-filme" src="../img/akame.jpg" alt="capa Akame Ga Kill" srcset="">
+                </a>
+            </div>
+            <div class="item">
+                <a href="bleach.html">
+                <img class="box-filme" src="../img/bleach.jpg" alt="capa Bleach" srcset="">
+                </a>
+            </div>
+            <div class="item">
+                <a href="deathNote.html">
+                <img class="box-filme" src="../img/death.jpg" alt="capa Death Note" srcset="">
+                </a>
+            </div>
+            <div class="item">
+                <a href="elfenLied.html">
+                <img class="box-filme" src="../img/elfen.jpg" alt="capa Elfen Lied" srcset="">
+                </a>
+            </div>
+            <div class="item">
+                <a href="hajimeNoIppo.html">
+                <img class="box-filme" src="../img/ippo.jpg" alt="capa Hajime no Ippo" srcset="">
+                </a>
+            </div>
+            <div class="item">
+                <a href="jojo.html">
+                <img class="box-filme" src="../img/jojo.jpg" alt="capa JoJo" srcset="">
+                </a>
+            </div>
+            <div class="item">
+                <a href="kurokoNoBasketball.html">
+                <img class="box-filme" src="../img/kuroko.jpg" alt="capa Kuroko no Basketball" srcset="">
+                </a>
+            </div>
+            <div class="item">
+                <a href="naruto.html">
+                <img class="box-filme" src="../img/naruto.jpg" alt="capa Naruto" srcset="">
+                </a>
+            </div>
+            <div class="item">
+                <a href="reZero.html">
+                <img class="box-filme" src="../img/rezero.jpg" alt="capa Re:zero" srcset="">
+                </a>
+            </div>
+            <div class="item">
+                <a href="miraiNikki.html">
+                <img class="box-filme" src="../img/yuno.jpg" alt="capa Mirai Nikki" srcset="">
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!--OWL JS arquivos-->
+    <script src="https://kit.fontawesome.com/457137eac8.js" crossorigin="anonymous"></script>
+    <script src="../js/owl/jquery.min.js"></script>
+    <script src="../js/owl/owl.carousel.min.js"></script>
+     <script src="../js/owl/setup.js"></script>
+</body>
+</html>
